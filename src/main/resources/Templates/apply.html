@@ -13,12 +13,17 @@ and open the template in the editor.
     <body style="margin: auto;">
         <script>window.__appCDN="https://cdn.webcomponents.psu.edu/cdn/";</script>
         <script src="https://cdn.webcomponents.psu.edu/cdn/build.js"></script>
-        <div style="height: 8vh; display: grid; grid-template-columns: 20% 20% 20% 20% 20%; background-color: black;">
-            <img src="https://photo.isu.pub/atz.sa/photo_large.jpg" height="100%"/>
-            <button id="applybutton-nav" onclick="window.location.href='/apply'" style="color: white; padding: 16px; background-color: black; border-color: white; border-radius: 8px; transition-duration: 0.4s;">Apply</button>
-            <button id="loansbutton-nav" onclick="window.location.href='/loans'" style="color: white; padding: 16px; background-color: black; border-color: white; border-radius: 8px; transition-duration: 0.4s; margin-left: 5%;">Loans</button>
-            <button id="accountsbutton-nav" onclick="window.location.href='/accounts'" style="color: white; padding: 16px; background-color: black; border-color: white; border-radius: 8px; transition-duration: 0.4s; margin-left: 5%;">Accounts</button>
-            <button id="settingsbutton-nav" onclick="window.location.href='/settings'" style="color: white; padding: 16px; background-color: black; border-color: white; border-radius: 8px; transition-duration: 0.4s; margin-left: 5%;">Settings</button>
+        <div style=" /*height: 8vh;display: grid; grid-template-columns: 20% 20% 20% 20% 20%;*/ background-color: black;">
+            <table>
+                <tr>
+                    <td><img src="https://photo.isu.pub/atz.sa/photo_large.jpg" style =" height: 100px; width: 100px"/></td>
+
+                    <td><button id="applybutton-nav" onclick="window.location.href='/apply'" style="color: white; padding: 16px; background-color: black; border-color: white; border-radius: 8px; transition-duration: 0.4s">Apply</button></td>
+                    <td><button id="loansbutton-nav" onclick="window.location.href='/loans'" style="color: white; padding: 16px; background-color: black; border-color: white; border-radius: 8px; transition-duration: 0.4s; margin-left: 5%;">Loans</button></td>
+                    <td><button id="accountsbutton-nav" onclick="window.location.href='/accounts'" style="color: white; padding: 16px; background-color: black; border-color: white; border-radius: 8px; transition-duration: 0.4s; margin-left: 5%;">Accounts</button></td>
+                    <td><button id="settingsbutton-nav" onclick="window.location.href='/settings'" style="color: white; padding: 16px; background-color: black; border-color: white; border-radius: 8px; transition-duration: 0.4s; margin-left: 5%;">Settings</button></td>
+                </tr>
+            </table>
         </div>
         <div style="background-image: url('https://live.staticflickr.com/5293/5537894072_c4e46bfce1_b.jpg'); background-size: cover; background-repeat: no-repeat; width: 100vw; height: 100vh;">
             <div style="height: 10vh"></div>

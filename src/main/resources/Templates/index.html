@@ -16,11 +16,15 @@ and open the template in the editor.
         <script type="module">
             import {LrnButton} from '@lrnwebcomponents/lrn-button';
         </script>
-        <div style="height: 8vh; display: grid; grid-template-columns: 20% 60% 10% 10%; background-color: black;">
-            <img src="https://photo.isu.pub/atz.sa/photo_large.jpg" height="100%"/>
-            <div></div>
-            <button id="loginbutton-nav" onclick="window.location.href='/login'" style="color: white; padding: 16px; background-color: black; border-color: white; border-radius: 8px; transition-duration: 0.4s; margin-right: 5%;">Login</button>
-            <button id="registerbutton-nav" onclick="window.location.href='/register'" style="color: white; padding: 16px; background-color: black; border-color: white; border-radius: 8px; transition-duration: 0.4s; margin-left: 5%;">Register</button>
+        <div style=" /*height: 8vh; display: grid; grid-template-columns: 20% 60% 10% 10%;*/ background-color: black;">
+            <table>
+                <tr>
+                    <td><img src="https://photo.isu.pub/atz.sa/photo_large.jpg" height="100%"/></td>
+
+                    <td><button id="loginbutton-nav" onclick="window.location.href='/login'" style="color: white; padding: 16px; background-color: black; border-color: white; border-radius: 8px; transition-duration: 0.4s; margin-right: 5%;">Login</button></td>
+                    <td><button id="registerbutton-nav" onclick="window.location.href='/register'" style="color: white; padding: 16px; background-color: black; border-color: white; border-radius: 8px; transition-duration: 0.4s; margin-left: 5%;">Register</button></td>
+                </tr>
+            </table> 
         </div>
         <div style="background-image: url('https://live.staticflickr.com/5293/5537894072_c4e46bfce1_b.jpg'); background-size: cover; background-repeat: no-repeat; width: 100vw; height: 92vh;">
             <div style="height: 10vh;"></div>
